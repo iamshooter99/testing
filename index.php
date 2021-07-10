@@ -1,4 +1,4 @@
 <html><body>
-<?php header('Location: http://169.254.169.254/latest/meta-data/', TRUE, 303); ?>
+  <script>alert("hello XSS")</script>
   </body>
 </html>
